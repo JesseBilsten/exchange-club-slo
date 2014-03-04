@@ -43,4 +43,8 @@ gem 'unicorn'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+# Had to use this http://foundation.zurb.com/forum/posts/1565-install-generator-fix to get 'rails g foundation:install' to run w/o errors
+gem 'foundation-rails'
+
 ruby "2.0.0"
