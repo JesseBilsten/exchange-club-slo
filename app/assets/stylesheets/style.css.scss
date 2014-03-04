@@ -1,3 +1,8 @@
+html, body {
+  height: 100%;
+  background: none;
+}
+
 html {
   background: image-url("bg_slo_steve.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -6,14 +11,10 @@ html {
   background-size: cover;
 }
 
-body {
-  background: none;
-}
-
-img.bg {
+footer {
   width: 100%;
   position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
+  bottom: 0;
+  text-align: center;
+  color: #fff;
 }
