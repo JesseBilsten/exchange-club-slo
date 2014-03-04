@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-ExchangeClubApp::Application.load_tasks
+ExchangeClub::Application.load_tasks

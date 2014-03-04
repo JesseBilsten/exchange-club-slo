@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-ExchangeClubApp::Application.config.secret_key_base = '04258aa3775d066a5fc139a352fa9d7e83f7e1fc280a85f4aaaed601f91b54709ea75cd9488dcc3b5ba362553d439908218afb4496ffebc14c8772d5be3e8ed7'
+ExchangeClub::Application.config.secret_key_base = '04258aa3775d066a5fc139a352fa9d7e83f7e1fc280a85f4aaaed601f91b54709ea75cd9488dcc3b5ba362553d439908218afb4496ffebc14c8772d5be3e8ed7'
