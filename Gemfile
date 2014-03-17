@@ -45,7 +45,7 @@ gem 'unicorn'
 # gem 'debugger', group: [:development, :test]
 
 # Had to use this http://foundation.zurb.com/forum/posts/1565-install-generator-fix to get 'rails g foundation:install' to run w/o errors
-gem 'foundation-rails'
+gem 'foundation-rails', '~> 5.2'
 
 # Heroku logging and static asset serving
 gem 'rails_12factor', group: :production
